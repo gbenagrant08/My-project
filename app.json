@@ -1,0 +1,85 @@
+{
+  "expo": {
+    "name": "Agon Preview",
+    "slug": "agon-preview",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0c0c12",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0c0c12"
+    },
+    "android": {
+      "package": "com.gbenagrant.movieapp",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0c0c12"
+      },
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Outfit-Light.ttf",
+            "./assets/fonts/Outfit-Regular.ttf",
+            "./assets/fonts/Outfit-Medium.ttf",
+            "./assets/fonts/Outfit-SemiBold.ttf",
+            "./assets/fonts/Outfit-Bold.ttf",
+            "./assets/fonts/Outfit-ExtraBold.ttf",
+            "./assets/fonts/PlayfairDisplay-Medium.ttf",
+            "./assets/fonts/PlayfairDisplay-SemiBold.ttf",
+            "./assets/fonts/PlayfairDisplay-Bold.ttf",
+            "./assets/fonts/PlayfairDisplay-Black.ttf",
+            "./assets/fonts/SpaceGrotesk-Medium.ttf",
+            "./assets/fonts/SpaceGrotesk-Bold.ttf"
+          ]
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "imageWidth": 420,
+          "resizeMode": "contain",
+          "backgroundColor": "#0c0c12",
+          "dark": {
+            "image": "./assets/splash.png",
+            "backgroundColor": "#0c0c12"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "552f0665-e30d-4f11-9ea9-97bc22a22809"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/552f0665-e30d-4f11-9ea9-97bc22a22809"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "owner": "arcadalabs",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
